@@ -12,7 +12,8 @@ $virtualenv -p python3 gorilaenv
 ## PASSOS: O backEnd é o framework Django - python3
 # 1. Ativar o env: gorilaenv
 $/AppGorila/GorilaDjango$ source gorilaenv/bin/activate
-(gorilaenv) $AppGorila/GorilaDjango/carteira$ python ./manage.py runserver 8080
+(gorilaenv)
+$AppGorila/GorilaDjango/carteira$ python ./manage.py runserver 8080
 
 # Instalar o django e djangoRest
 pip install django
