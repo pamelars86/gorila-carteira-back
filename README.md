@@ -14,6 +14,10 @@ $virtualenv -p python3 gorilaenv
 $/AppGorila/GorilaDjango$ source gorilaenv/bin/activate
 (gorilaenv) $AppGorila/GorilaDjango/carteira$ python ./manage.py runserver 8080
 
+# Instalar o django e djangoRest
+pip install django
+pip install djangorestframework
+
 # 2. Criar os migrations
 (gorilaenv)AppGorila/GorilaDjango/carteira$ python ./manage.py makemigrations carteiraapp
 (gorilaenv)AppGorila/GorilaDjango/carteira$ python ./manage.py migrate
